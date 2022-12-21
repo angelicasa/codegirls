@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(125.98deg, #8FCACA 8.44%, rgba(233, 172, 201, 0.82) 90.12%);
+ }
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.box-img {
+  height: 40px;
+}
+
+.box-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.box-menu-nav {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.container {
+  border-top: 0.3px solid #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.container-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ }
+
+.container-main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px
+}
+
+.container-main-title {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 50px;
+  color: #FFFFFF
+}
+
+.container-main-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.container-btn {
+background-color: #ffffff;
+  width: 180px;
+  height: 50px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #649c9c;
+}
+
+.container-btn:hover {
+  background-color: #FFFFFF;
+  color: #D8A2BD;
+  cursor: pointer;
+}
+
+.container-main-img {
+  height: 340px;
+  padding-top: 50px;
+  }
+
+  .container-scd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 5px;
+  }
+
+  .container-scd-title {
+    border-top: 0.2px solid #fff;
+    padding-top: 20px;
+    font-family: 'Poppins', cursive;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFF;
+    padding-bottom: 0px;
+  }
+
+  .container-scd-prg {
+    font-family: 'Poppins', cursive;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+  }
+
+  .container-ftr {
+    padding: 10px;
+    border-top: 0.3px solid #FFFFFF;
+    text-align: center;
+  }
+
+  .container-ftr-text {
+    padding: 5px;
+    font-family: 'Poppins', cursive;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFF;
+    display: block;
+    margin: 0 auto;
+  }
