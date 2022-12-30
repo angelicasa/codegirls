@@ -127,6 +127,15 @@ background-color: #ffffff;
     padding-top: 10px;
   }
 
+  .container-main-image {
+    height: 340px;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+  }
+
   .container-ftr {
     padding: 10px;
     border-top: 0.3px solid #FFFFFF;
