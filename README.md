@@ -8,6 +8,6 @@ Nos próximos commits adicionarei responsividade e links das páginas de navega�
 * HTML
 * CSS
 ---
-⌨️ com ❤️ por [Angélica Almeida](https://gist.github.com/angelica) 😊!
+⌨️ por [Angélica Almeida](https://gist.github.com/angelica) 😊!
 
-![codegirls](https://user-images.githubusercontent.com/107443453/208792476-085d9188-bed9-48e5-9010-7cad9cd41347.png)
+
