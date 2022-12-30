@@ -87,7 +87,7 @@ background-color: #ffffff;
 }
 
 .container-main-img {
-  height: 340px;
+  height: 400px;
   padding-top: 50px;
   }
 
@@ -111,7 +111,7 @@ background-color: #ffffff;
 
   .container-scd-subt {
     font-family: 'Poppins', cursive;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     color: #FFF;
     text-align: center;
@@ -128,7 +128,7 @@ background-color: #ffffff;
   }
 
   .container-main-image {
-    height: 340px;
+    height: 320px;
     padding-top: 50px;
     display: block;
     margin-left: auto;
