@@ -11,3 +11,4 @@ Nos próximos commits adicionarei responsividade e links das páginas de navega�
 ⌨️ por [Angélica Almeida](https://gist.github.com/angelica) 😊!
 
 
+![img codegirls](https://user-images.githubusercontent.com/107443453/210033251-91423856-e71f-40ab-b96d-a2a544117f50.png)
