@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Righteous&family=Roboto:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Righteous&family=Roboto:wght@400;500&display=swap");
 
 * {
   margin: 0;
@@ -9,8 +9,12 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(125.98deg, #8FCACA 8.44%, rgba(233, 172, 201, 0.82) 90.12%);
- }
+  background: linear-gradient(
+    125.98deg,
+    #8fcaca 8.44%,
+    rgba(233, 172, 201, 0.82) 90.12%
+  );
+}
 
 .box {
   display: flex;
@@ -30,14 +34,14 @@ body {
 }
 
 .box-menu-nav {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #fff;
 }
 
 .container {
-  border-top: 0.3px solid #FFFFFF;
+  border-top: 0.3px solid #ffffff;
   margin-bottom: 20px;
 }
 
@@ -45,109 +49,117 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
- }
+}
 
 .container-main-text {
   display: flex;
   flex-direction: column;
-  gap: 30px
+  gap: 30px;
 }
 
 .container-main-title {
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   font-weight: 400;
   font-size: 60px;
-  color: #FFFFFF
+  color: #ffffff;
 }
 
 .container-main-subtitle {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 25px;
   color: #ffffff;
 }
 
 .container-btn {
-background-color: #ffffff;
+  background-color: #ffffff;
   width: 180px;
   height: 50px;
   border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #649c9c;
 }
 
 .container-btn:hover {
-  background-color: #FFFFFF;
-  color: #D8A2BD;
+  background-color: #ffffff;
+  color: #d8a2bd;
   cursor: pointer;
 }
 
 .container-main-img {
   height: 400px;
   padding-top: 50px;
-  }
+}
 
-  .container-scd {  
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    margin-top: 50px;
-  }
+.container-scd {
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 50px;
+}
 
-  .container-scd-title {
-    border-top: 0.2px solid #fff;
-    padding-top: 20px;
-    font-family: 'Poppins', cursive;
-    font-weight: 500;
-    font-size: 24px;
-    color: #FFF;
-    padding-bottom: 0px;
-    text-align: center;
-  }
+.container-scd-title {
+  border-top: 0.2px solid #fff;
+  padding-top: 20px;
+  font-family: "Poppins", cursive;
+  font-weight: 500;
+  font-size: 28px;
+  color: #fff;
+  padding-bottom: 0px;
+  text-align: center;
+}
 
-  .container-scd-subt {
-    font-family: 'Poppins', cursive;
-    font-weight: 500;
-    font-size: 20px;
-    color: #FFF;
-    text-align: center;
-    padding-top: 25px;
-  }
+.container-scd-subt {
+  font-family: "Poppins", cursive;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+}
 
-  .container-scd-text {
-    font-family: 'Roboto', cursive;
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFF;
-    text-align: center;
-    padding-top: 10px;
-  }
+.container-scd-text {
+  font-family: "Roboto", cursive;
+  font-weight: 400;
+  font-size: 18px;
+  color: #649a9a;
+  text-align: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: auto;
+  margin-right: 130px;
+  margin-left: 130px;  
+}
 
-  .container-main-image {
-    height: 320px;
-    padding-top: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
+.container-main-image {
+  height: 320px;
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  }
+.container-ftr {
+  padding: 10px;
+  border-top: 0.3px solid #ffffff;
+  text-align: center;
+}
 
-  .container-ftr {
-    padding: 10px;
-    border-top: 0.3px solid #FFFFFF;
-    text-align: center;
-  }
-
-  .container-ftr-text {
-    padding: 5px;
-    font-family: 'Poppins', cursive;
-    font-weight: 500;
-    font-size: 14px;
-    color: #FFF;
-    display: block;
-    margin: 0 auto;
-  }
+.container-ftr-text {
+  padding: 5px;
+  font-family: "Poppins", cursive;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+}
